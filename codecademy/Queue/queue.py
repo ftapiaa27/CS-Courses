@@ -16,7 +16,7 @@ class Queue:
         self.head = item_to_add
         self.tail = item_to_add
       else:
-        self.tail.set_next_node(item_to_add)
+        self.tail.set_link_node(item_to_add)
         self.tail = item_to_add
       self.size += 1
     else:
@@ -30,7 +30,7 @@ class Queue:
         self.head = None
         self.tail = None
       else:
-        self.head = self.head.get_next_node()
+        self.head = self.head.get_link_node()
       self.size -= 1
       return item_to_remove.get_value()
     else:

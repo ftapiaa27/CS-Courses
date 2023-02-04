@@ -132,7 +132,7 @@ class Cat:
   # Ex: def name(self, pet):
   def cuddle(self, other_cat):
     if(other_cat.is_cuddly):
-      print("{name1} is now cuddling with {name2}".format(name1 = self.name, name2 = other_cat.name)
+      print("{name1} is now cuddling with {name2}".format(name1 = self.name, name2 = other_cat.name))
     else:
       print("{name} says stfu".format(name = other_cat.name))
 
