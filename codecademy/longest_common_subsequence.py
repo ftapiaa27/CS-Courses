@@ -23,7 +23,7 @@ def longest_common_subsequence(string_1, string_2):
       row -= 1
     else:
       col -= 1
-  #result.reverse()
+  result.reverse()
   return "".join(result)
 
 dna_1 = "ACCGTTZ"
